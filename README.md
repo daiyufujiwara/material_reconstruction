@@ -19,6 +19,10 @@ Therefore, if you are using clinical CT data (which typically uses HU), you must
 The detailed conversion formula from HU to the linear attenuation coefficient ($\mu$) is as follows:
 
 $$\mu = \mu_{\text{water}} \times \left(1 + \frac{\text{HU}}{1000}\right)$$
-Where:$\mu$ is the linear attenuation coefficient to be input into the model.
+
+Where:
+$\mu$ is the linear attenuation coefficient to be input into the model.
+
 $\text{HU}$ is the Hounsfield Unit value from the clinical CT data.
+
 $\mu_{\text{water}}$ is the linear attenuation coefficient of water at the corresponding X-ray tube voltage (e.g., 0.233150 for 120 kV).
